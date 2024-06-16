@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonte awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>sobre Website html css</title>
+</head>
+<body>
+
+    <!--header-->
+    <header style="background-image: url('img/background-sobre1.jpg')">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn animate-btn" href="contacto.html">Contactos</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Sobre</h1>
+                    
+                </div>
+            </section>
+        </div>
+       <!--end container-->
+    </header>
+    <!--end header-->
+
+   <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+                <h3>Estamos nesse mercado a mais de 2 anos</h3>
+                <p>Há dois anos, embarcamos nesta jornada no mercado digital com uma visão clara e uma paixão ardente por ajudar nossos clientes a alcançarem o sucesso online. Durante esse período, acumulamos não apenas experiência, mas também uma compreensão profunda das complexidades e nuances do mundo digital.Ao longo desses dois anos, construímos relacionamentos sólidos com nossos clientes, colaborando de perto com eles para entender suas necessidades e objetivos. Foi essa parceria que nos permitiu entregar resultados excepcionais e superar expectativas.</p>
+                <a href="contacto.html" class="btn animate-btn">Entrar em Contacto</a>
+            </div>
+            <div class="sobre-img">
+                <img src="img/sobre.jpg" alt="sobre">
+            </div>
+        </div>
+   </section>
+    <!--end faca-mais-->
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=61558563244985"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Emanuell-Muquengro"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Desenvolvido por Emanuell Muquengro</p>
+        </div>
+    </footer>
+
+    <script src="js/man.js"></script>
+</body>
+</html>

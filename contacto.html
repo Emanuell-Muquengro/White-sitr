@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonte awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Serviços Website html css</title>
+</head>
+<body>
+
+    <!--header-->
+    <header style="background-image: url('img/background-contacto.jpg')">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn animate-btn" href="contacto.html">Contactos</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Nos Contacte</h1>
+                </div>
+            </section>
+        </div>
+       <!--end container-->
+    </header>
+    <!--end header-->
+
+    <section class="contacto">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.5591275141414!2d13.281475092630926!3d-8.857560081915368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f14c3ecde783%3A0x25bc7ad1692d2f9b!2sUniversidade%20Cat%C3%B3lica%20de%20Angola!5e0!3m2!1spt-PT!2sao!4v1715522781999!5m2!1spt-PT!2sao" width="100%" height="430px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacto-info">
+                <div class="left-side">
+                    <div>
+                         <i class="fa-solid fa-location-dot"></i>
+                    <p>Universidade Católica de Angola
+                        Av. Pedro de Castro Van-Dúnem Loy 24, Luanda</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>Whitespace@gmail.com</p>
+                   </div>
+                  
+                <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+244 929395930</p>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+244 927 634 666</p>
+               </div>
+                </div>
+
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="NAssunto" required>
+                       <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                       <button class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=61558563244985"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Emanuell-Muquengro"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Desenvolvido por Emanuell Muquengro</p>
+        </div>
+    </footer>
+
+    <script src="js/man.js"></script>
+</body>
+</html>

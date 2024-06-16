@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonte awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Website html css</title>
+</head>
+<body>
+
+    <!--header-->
+    <header style="background-image: url('img/background-home.jpg')">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn animate-btn" href="contacto.html">Contactos</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Whitepace</h1>
+                    <p>Construa a sua marca, conquista o mundo sem habilidade de codigo ou design necessarios</p>
+                    <a href="contacto.html" class="btn animate-btn ">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+       <!--end container-->
+    </header>
+    <!--end header-->
+
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça mais com a Whitepace</h3>
+                <p>
+                    Criação de Website, lojas virtual, blogs para pequenas, medias e grandes empresas ter um site online nunca foi tão fácil.
+                </p>
+                <a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/img-1.png" alt="">
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca-mais-->
+    <!--faca-mais2-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="img/img-2.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Ter um Website nunca foi tão fácil</h3>
+                <p>
+                    Agora com a nossa empresa ter um Website é algo simplesmente facil basta entrar em contacto e nós vamos desenvolver o seu Website em tempo recorde para você começar a conquistar o mundo.
+                </p>
+                <a href="contacto.html" class="btn">Entrar em contacto</a>
+            </div>
+           
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca mais 2-->
+
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clintes falam de nós para o mundo</p>
+            <div class="cards">
+                <!--cards item 1-->
+                <div class="cards-item">
+                    <img src="img/m3.jpg" alt="Emanuel">
+                    <p class="nome-user">Emanuell</p>
+                    <p class="depoimento-user">A equipe da Whitespace demonstrou um profissionalismo excepcional e um compromisso inabalável com a qualidade em todos os projetos que realizamos juntos. Eles não apenas entregaram resultados, mas também se tornaram verdadeiros parceiros de negócios</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                </div>
+                 <!--end cards item 1-->
+                  <!--cards item 2-->
+                <div class="cards-item">
+                    <img src="img/me2.jpg" alt="Emanuel">
+                    <p class="nome-user">Muquengro</p>
+                    <p class="depoimento-user">Whitespace foi além das nossas expectativas, entregando uma identidade visual que capturou perfeitamente a essência da nossa marca. Eles entenderam nossas necessidades desde o início e nos guiaram através de cada etapa do processo de criação</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                </div>
+                 <!--end cards item 2-->
+                 <!--cards item 3-->
+                <div class="cards-item">
+                    <img src="img/m4.jpg" alt="Emanuel">
+                    <p class="nome-user">César</p>
+                    <p class="depoimento-user">Trabalhar com Whitespace foi uma experiência transformadora para nosso negócio. Sua equipe de marketing digital não apenas aumentou nossa visibilidade online, mas também gerou resultados tangíveis em termos de leads e conversões.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                </div>
+                 <!--end cards item 3-->
+            </div>
+        </div>
+    </section>
+    <!--end depoimentos-->
+    <!--Clientes-->
+    <section class="clientes">
+        <div class="container">
+            <h3>Nossos Clientes</h3>
+            <p>Prestamos serviços todo tipo de empresas ou projetos, olhe alguns dos nossos clientes</p>
+            <div>
+                <img src="img/apple.png" alt="">
+                <img src="img/microsoft.png" alt="">
+                <img src="img/slack.png" alt="">
+                <img src="img/google.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--end clientes-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Tenha um Website Seguro!</h3>
+                <p>
+                    Nós trabalhamos com tecnologias actualizadas, rapidas e as mais seguras desse mercado nós fazemos backup e manunteção no seu site em tempo recorde.
+                </p>
+                <a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/security.png" alt="">
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca-mais-->
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=61558563244985"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Emanuell-Muquengro"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Desenvolvido por Emanuell Muquengro</p>
+            <a href="index.html" id="btn animate-btn">Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <script src="js/man.js"></script>
+</body>
+</html>
